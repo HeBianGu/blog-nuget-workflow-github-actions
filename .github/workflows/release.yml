@@ -23,8 +23,6 @@ jobs:
     - name: Test
       run: dotnet test --configuration Release /p:Version=${VERSION} --no-build
     - name: Pack
-      run: dotnet pack --configuration Release /p:Version=${VERSION} --no-build --output .
+      run: dotnet build --configuration Release
     - name: Push
       run: dotnet nuget push .\bin\Release\*.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{ secrets.NuGetAPIKey }} --skip-duplicate --no-symbols 1
-      env:
-        GITHUB_TOKEN: ${{ secrets.NuGetAPIKey  }}
