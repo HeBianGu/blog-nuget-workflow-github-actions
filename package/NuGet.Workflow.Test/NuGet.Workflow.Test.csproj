@@ -5,7 +5,7 @@
     <Title>NuGet.Workflow</Title>
     <RootNamespace>NuGet.Workflow.Test</RootNamespace>
     <AssemblyName>NuGet.Workflow.Test</AssemblyName>
-    <Version>1.2.15</Version>
+    <Version>1.2.16</Version>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
 
