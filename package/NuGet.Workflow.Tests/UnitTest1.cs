@@ -1,3 +1,4 @@
+using NuGet.Workflow.Test;
 using NUnit.Framework;
 
 namespace NuGet.Workflow.Tests
