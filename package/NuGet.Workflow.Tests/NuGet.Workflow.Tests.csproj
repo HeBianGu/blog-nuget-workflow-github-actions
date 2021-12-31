@@ -10,8 +10,4 @@
     <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.8.3" />
   </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\NuGet.Workflow\NuGet.WorkflowW.csproj" />
-  </ItemGroup>
 </Project>
