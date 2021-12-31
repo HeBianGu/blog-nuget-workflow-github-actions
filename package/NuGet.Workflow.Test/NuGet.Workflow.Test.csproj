@@ -5,14 +5,14 @@
     <Title>NuGet.Workflow</Title>
     <RootNamespace>NuGet.Workflow.Test</RootNamespace>
     <AssemblyName>NuGet.Workflow.Test</AssemblyName>
-    <Version>1.2.12</Version>
+    <Version>1.2.13</Version>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
 
   <PropertyGroup>
     <PackageId>NuGet.Workflow</PackageId>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/acraven/blog-nuget-workflow-github-actions</RepositoryUrl>
+    <RepositoryUrl></RepositoryUrl>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
